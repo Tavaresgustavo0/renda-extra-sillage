@@ -949,22 +949,50 @@ h3 {
   .header-cta {
     min-height: 42px;
     padding: 0 14px;
+    font-size: 13px;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
   }
 
   .hero {
-    min-height: 70vh;
-    padding: 88px 16px 26px;
+    min-height: auto;
+    padding: 100px 16px 48px;
   }
 
-  .hero-overlay {
-    background:
-      linear-gradient(90deg, rgba(16, 26, 24, 0.88), rgba(16, 26, 24, 0.62)),
-      linear-gradient(0deg, rgba(16, 26, 24, 0.76), rgba(16, 26, 24, 0.1) 56%);
+  .hero-content h1 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .hero-copy {
+    font-size: 17px;
+    margin-top: 12px;
+  }
+
+  .proof-strip {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-top: 24px;
+  }
+
+  .proof-strip span {
+    min-height: auto;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .hero-actions {
+    margin-top: 28px;
   }
 
   .button,
   .hero-actions a {
     width: 100%;
+    min-height: 52px;
   }
 
   .section,
@@ -974,37 +1002,87 @@ h3 {
   .metrics,
   .comparativo,
   .offer {
-    padding: 64px 16px;
+    padding: 48px 16px;
   }
 
-  .intro-grid article,
-  .aroma-grid article {
-    min-height: 190px;
-    padding: 22px;
+  h2 {
+    font-size: 32px;
+    line-height: 1.1;
   }
 
   .image-stack {
-    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-height: auto;
   }
 
-  .image-large {
-    width: 88%;
-    height: 500px;
-  }
-
+  .image-large,
   .image-small {
-    bottom: 82px;
-    width: 48%;
-    height: 340px;
+    position: static;
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+    object-fit: cover;
+    border-radius: var(--radius-md);
   }
 
-  .production img {
-    height: 420px;
+  .metric-images {
+    gap: 16px;
+  }
+
+  .metric-images img {
+    height: auto;
+    max-height: 60vh;
+    border-radius: var(--radius-md);
+  }
+
+  .production img,
+  .objection img {
+    height: auto;
+    max-height: 50vh;
+    border-radius: var(--radius-md);
+  }
+
+  .comparativo .card {
+    padding: 24px 20px;
+  }
+
+  .comparativo h2 {
+    font-size: 28px;
+  }
+
+  .comparativo .item {
+    font-size: 15px;
+    padding: 14px 0;
+  }
+
+  .launch-pricing {
+    gap: 16px;
+  }
+
+  .price-tier {
+    padding: 20px 16px;
+  }
+
+  .tier-price {
+    font-size: 48px;
+  }
+
+  .offer-card {
+    padding: 32px 20px;
+  }
+
+  .offer-features li {
+    font-size: 14px;
   }
 
   .site-footer {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    padding: 32px 16px;
   }
 }
 
