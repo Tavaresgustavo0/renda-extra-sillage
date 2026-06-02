@@ -1,0 +1,16 @@
+{
+  "name": "renda-extra-sillage",
+  "version": "1.0.0",
+  "description": "Landing page para o ebook Renda Extra com Sillage",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build-static.js",
+    "start": "serve public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
