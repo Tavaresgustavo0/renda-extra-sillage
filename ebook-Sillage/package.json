@@ -1,0 +1,9 @@
+﻿{
+  "name": "renda-extra-sillage",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo Site estatico pronto para Vercel",
+    "start": "echo Abra index.html ou publique na Vercel"
+  }
+}
