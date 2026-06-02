@@ -1002,7 +1002,7 @@ h3 {
     width: 100%;
     height: 420px;
     object-fit: cover;
-    object-position: bottom left;
+    object-position: 5% bottom;
     z-index: 1;
     border-radius: var(--radius-md);
   }
@@ -1010,9 +1010,9 @@ h3 {
   .image-small {
     position: absolute;
     left: auto;
-    right: -8px;
+    right: 4px;
     bottom: -32px;
-    width: 50%;
+    width: 48%;
     height: auto;
     z-index: 2;
     border-radius: var(--radius-md);
