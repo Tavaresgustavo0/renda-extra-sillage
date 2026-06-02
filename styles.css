@@ -817,28 +817,6 @@ h3 {
   font-weight: 700;
 }
 
-.guarantee {
-  margin: 32px 0 28px;
-  padding: 22px 24px;
-  text-align: left;
-  border: 1px solid rgba(22, 123, 120, 0.24);
-  border-radius: var(--radius-md);
-  background: var(--mist);
-}
-
-.guarantee strong {
-  color: var(--teal);
-  font-size: 15px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.guarantee p {
-  margin: 8px 0 0;
-  color: #27433c;
-  font-size: 14px;
-}
-
 .offer-button {
   width: 100%;
   color: var(--white);
@@ -1021,8 +999,8 @@ h3 {
     position: absolute;
     left: 0;
     top: 0;
-    width: 85%;
-    height: 400px;
+    width: 90%;
+    height: 420px;
     object-fit: cover;
     z-index: 1;
     border-radius: var(--radius-md);
@@ -1030,9 +1008,10 @@ h3 {
 
   .image-small {
     position: absolute;
+    left: auto;
     right: 0;
-    bottom: 0;
-    width: 55%;
+    bottom: -30px;
+    width: 52%;
     height: auto;
     z-index: 2;
     border-radius: var(--radius-md);
