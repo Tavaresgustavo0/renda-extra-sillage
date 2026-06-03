@@ -702,6 +702,13 @@ h3 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
+.review-stars {
+  color: #ffb400;
+  font-size: 14px;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
 .review-card p {
   margin: 0 0 8px;
   color: var(--ink);
