@@ -817,6 +817,68 @@ h3 {
   text-transform: uppercase;
 }
 
+.scarcity-container {
+  margin: 16px 0;
+  text-align: left;
+}
+
+.scarcity-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.scarcity-info strong {
+  color: var(--copper);
+  font-size: 15px;
+}
+
+.urgency-tag {
+  background: var(--rose);
+  color: var(--white);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+  animation: pulse 1.5s infinite;
+}
+
+.scarcity-bar {
+  height: 10px;
+  background: rgba(22, 123, 120, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.scarcity-progress {
+  height: 100%;
+  background: linear-gradient(90deg, var(--teal), var(--copper));
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+
+.scarcity-footer {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.scarcity-footer strong {
+  color: var(--rose);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
 .price-tier.featured .tier-badge {
   background: linear-gradient(135deg, var(--copper), var(--teal));
 }
