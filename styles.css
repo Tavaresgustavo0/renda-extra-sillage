@@ -606,7 +606,7 @@ h3 {
 .offer {
   position: relative;
   overflow: hidden;
-  padding: 96px clamp(18px, 5vw, 72px);
+  padding: 48px clamp(18px, 5vw, 72px);
   color: var(--white);
   background:
     radial-gradient(circle at top left, rgba(189, 109, 47, 0.28), transparent 34%),
